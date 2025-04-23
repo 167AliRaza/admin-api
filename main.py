@@ -44,7 +44,7 @@ def read_admin(cnic_no: int):
             "data": {
                 "name": admin["name"],	
                 "email": admin["email"],
-                "reg_no": admin["cnic"] },
+                "cnic": admin["cnic"] },
             
         }
     except Exception as e:
